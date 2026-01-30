@@ -1,4 +1,4 @@
-# [Nombre Aplicación]
+# StilNovo.es
 
 ## 👥 Miembros del Equipo
 | Nombre y Apellidos | Correo URJC | Usuario GitHub |
