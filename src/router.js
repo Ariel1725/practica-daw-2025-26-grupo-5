@@ -10,3 +10,10 @@ const router=express.Router();
 const upload = multer({ dest: UPLOADS_FOLDER });
 //Copia de la carpeta demo images en la carpeta upload folder
 fs.cp(DEMO_FOLDER, UPLOADS_FOLDER,{ recursive: true, force: true });
+
+// Ruta principal
+router.get('/', (req, res) => {
+    res.render('index');
+});
+
+export default router;
